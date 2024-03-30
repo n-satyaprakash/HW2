@@ -68,8 +68,8 @@ footer {
 
 #back-to-top-btn {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
     display: none;
     background-color: #fff;
     border: 1px solid #000;
