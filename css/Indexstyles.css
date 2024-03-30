@@ -1,5 +1,7 @@
+/* Existing CSS code */
 body {
     background-color: black;
+    color: white; /* Default foreground color */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: white; /* Default foreground color */
     padding: 10px;
     text-align: center;
 }
@@ -25,39 +27,42 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white; /* Default link color */
     text-decoration: none;
 }
 
 main {
-    color: blueviolet;
+    color: red; /* Default text color */
     padding: 20px;
 }
 
-#back-to-top-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-    z-index: 999;
-}
-
-body.scrolled #back-to-top-btn {
-    display: block;
-}
-
 footer {
-    background-color: #282525;
-    color: #fff;
+    background-color: #333;
+    color: white; /* Default foreground color */
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Additional CSS code */
+.first-color {
+    background: #35013f; /* Background color */
+}
+
+.second-color {
+    background: #561050; /* Background color */
+}
+
+.third-color {
+    background: #951556; /* Background color */
+}
+
+.foreground-color {
+    color: #ffdb58; /* Foreground color */
+}
+
+.link-color {
+    color: #fb0909; /* Link color */
 }
