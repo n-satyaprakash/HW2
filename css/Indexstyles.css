@@ -1,17 +1,29 @@
-/* Existing CSS code */
 body {
+    max-width: 80ch;
+    margin: 0 auto; 
+    padding: 0 10px;
     background-color: black;
-    color: white; /* Default foreground color */
+    color: white;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: white; /* Default foreground color */
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
     padding: 10px;
     text-align: center;
+}
+
+header h1 {
+    font-size: 300%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 550px;
+    display: block;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -27,42 +39,54 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white; /* Default link color */
+    color: white;
     text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(187, 174, 174, 0.2);
 }
 
 main {
-    color: red; /* Default text color */
+    color: red;
     padding: 20px;
 }
 
 footer {
     background-color: #333;
-    color: white; /* Default foreground color */
+    color: white;
     text-align: center;
-    padding: 10px;
+    max-width: 80ch;
+    margin: 0 auto; 
+    padding: 0 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-/* Additional CSS code */
 .first-color {
-    background: #35013f; /* Background color */
+    background: #35013f;
 }
 
 .second-color {
-    background: #561050; /* Background color */
+    background: #561050;
 }
 
 .third-color {
-    background: #951556; /* Background color */
+    background: #951556;
 }
 
 .foreground-color {
-    color: #ffdb58; /* Foreground color */
+    color: #ffdb58;
 }
 
 .link-color {
-    color: #fb0909; /* Link color */
+    color: #fb0909;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
